@@ -81,3 +81,30 @@ hr {
     grid-area: c3;
     text-align: initial;
 }
+#carolina {
+    display: grid;
+    grid-template-areas: 'cr1 cr2'
+                         'cr3 cr3';
+}
+#img-carolina {
+    width: 100%;
+    grid-area: cr1;
+    text-align: center;
+    float: left;
+    margin-left: -15%;
+}
+#img-carolina p {
+    color: darkturquoise;
+}
+#desc-carolina {
+    width: 120%;
+    text-align: initial;
+    grid-area: cr2;
+    margin-top: 10%;
+    margin-left: -25%;
+    margin-top: 15%;
+}
+#abajo-carolina {
+    grid-area: cr3;
+    text-align: initial;
+}
