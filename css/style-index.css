@@ -15,8 +15,10 @@ body {
     font-weight: normal;
     text-align: center;
 }
+#inicio {
+    width: 80%;
+}
 #logo {
-    width: auto;
     padding: 2%;
 }
 hr {
@@ -28,8 +30,12 @@ hr {
     grid-template-areas: 'a1 a2'
                          'a3 a3';
 }
+#cont-andres-arriba {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
 #cont-img-andres {
-    width: 30%;
     text-align: center;
     float: left;
     grid-area: a1;
@@ -38,14 +44,40 @@ hr {
     color: darkturquoise ;
 }
 #desc-andres {
+    margin-top: 15%;
     grid-area: a2;
     width: 68%;
     height: 40%;
     float: right;
-    margin-top: 8%;
     text-align: initial;
 }
 #cont-andres-abajo {
     grid-area: a3;
+    text-align: initial;
+}
+
+#camila {
+    display: grid;
+    grid-template-areas: 'c1 c2'
+                         'c3 c3';
+}
+#desc-camila {
+    grid-area: c1;
+    width: 100%;
+    height: 40%;
+    margin-top: 20%;
+    text-align: initial;
+    float: left;
+}
+#img-camila {
+    text-align: center;
+    float: right;
+    grid-area: c2;
+}
+#img-camila p {
+    color: darkturquoise;
+}
+#abajo-camila {
+    grid-area: c3;
     text-align: initial;
 }
