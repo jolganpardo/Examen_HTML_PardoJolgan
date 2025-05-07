@@ -1,6 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: aqua;
+    font-size: 2vw;
 }
 #cont-principal {
     background-color: white;
@@ -87,24 +88,70 @@ hr {
                          'cr3 cr3';
 }
 #img-carolina {
-    width: 100%;
+    width: 120%;
     grid-area: cr1;
     text-align: center;
     float: left;
-    margin-left: -15%;
+    margin-left: -10%;
 }
 #img-carolina p {
     color: darkturquoise;
+    width: 80%;
+    margin-left: 7.5%;
 }
 #desc-carolina {
-    width: 120%;
+    width: 100%;
     text-align: initial;
     grid-area: cr2;
     margin-top: 10%;
-    margin-left: -25%;
-    margin-top: 15%;
+    margin-top: 10%;
 }
 #abajo-carolina {
     grid-area: cr3;
     text-align: initial;
+}
+#cont-footer {
+    display: grid;
+    grid-template-areas: 'p1 p2 p3'
+                         'p1 p2 p3';
+}
+#foot1 {
+    grid-area: p1;
+}
+#foot2 {
+    grid-area: p2;
+}
+#foot3 {
+    grid-area: p3;
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width:768px) {
+    body {
+        font-size: 3.5vw;
+    }
+    #cont-img-andres {
+        width: 40%;
+    }
+    #desc-andres {
+        margin-top: 0;
+    }
+    #img-camila {
+        width: 70%;
+        margin-left: 20%;
+    }
+    #desc-camila {
+        width: 115%;
+        margin-top: 0;
+    }
+    #img-carolina {
+        width: 100%;
+        margin-left: -20%;
+    }
+    #desc-carolina {
+        margin-top: 0;
+        margin-left: -30%;
+        width: 130%;
+    }
 }
