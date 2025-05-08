@@ -1,71 +1,74 @@
+# Examen HTML – Jolgan Pardo  
+[![HTML5 Badge](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)  
+[![CSS3 Badge](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+
+> **Rediseño UX para trámites digitales en la DIAN – Colombia**
+
 ---
 
-Examen_HTML_PardoJolgan
+## 🌐 Demo en línea
 
-Este proyecto es una propuesta de rediseño de la experiencia de usuario (UX) para los servicios en línea de la DIAN (Dirección de Impuestos y Aduanas Nacionales de Colombia).  El objetivo es facilitar trámites como la obtención del RUT, la firma electrónica y la consulta del NIT, especialmente para usuarios con poco tiempo o conocimientos técnicos limitados. 
+Accede al sitio aquí:  
+[**jolganpardo.github.io/Examen_HTML_PardoJolgan**](https://jolganpardo.github.io/Examen_HTML_PardoJolgan/)
 
-🌐 Demo en línea
+---
 
-👉 Ver el sitio web
+## 🎯 Objetivo
 
-📋 Contenido del proyecto
+Este proyecto busca **mejorar la experiencia del usuario** al realizar trámites digitales en el sitio web de la DIAN, como:
 
-El sitio presenta un análisis centrado en el usuario, incluyendo: 
+- Consulta de RUT  
+- Solicitud de firma electrónica  
+- Verificación del NIT
 
-Historias de usuario y arquetipos: Se desarrollaron tres perfiles representativos:
+Se plantea una interfaz más intuitiva, accesible y centrada en el usuario.
 
-Andrés Castro: Emprendedor que necesita obtener su RUT de manera rápida y sencilla.
+---
 
-Camila Echeverry: Gerente general que requiere una firma electrónica para autorizar documentos remotamente.
+## 👤 Perfiles de Usuario
 
-Carolina Barón: Empresaria ganadera que busca consultar su NIT para cumplir con obligaciones tributarias. 
+| Nombre               | Perfil                               | Necesidad principal                     |
+|----------------------|---------------------------------------|------------------------------------------|
+| **Andrés Castro**    | Emprendedor                          | Obtener RUT de forma rápida              |
+| **Camila Echeverry** | Gerente general                      | Obtener firma electrónica remota         |
+| **Carolina Barón**   | Empresaria ganadera                  | Consultar su NIT fácilmente              |
 
+---
 
-Identificación de problemas comunes:
+## ✅ Solución Propuesta
 
-Dificultades en la navegación de la plataforma MUISCA.
+- Interfaz clara con botones grandes y accesibles  
+- Proceso guiado para cada tipo de trámite  
+- Redirección sencilla a la plataforma oficial (MUISCA)  
+- Adaptado para distintos tipos de usuarios
 
-Falta de claridad en los procesos y requisitos.
+---
 
-Limitaciones de tiempo para realizar trámites presenciales. 
+## 🛠️ Tecnologías
 
+- `HTML5`
+- `CSS3`
+- Diseño básico responsivo
 
-Propuesta de solución:
+---
 
-Diseño de una interfaz intuitiva y accesible.
+## 🗂️ Estructura del Proyecto
 
-Acceso rápido a servicios clave como consulta de RUT y NIT, y solicitud de firma electrónica.
-
-Redirección eficiente a la plataforma MUISCA para completar trámites específicos. 
-
-
-
-🛠️ Tecnologías utilizadas
-
-HTML5
-
-CSS3
-
-
-Este proyecto fue desarrollado como parte de un examen académico, enfocándose en la estructura y presentación de la información para mejorar la experiencia del usuario. 
-
-📁 Estructura del repositorio
-
+<pre>
 Examen_HTML_PardoJolgan/
 ├── index.html
 ├── css/
-│   └── style.css
-├── images/
-│   └── [imágenes de los perfiles y elementos gráficos]
-└── README.md
+│   └── style-index.css
+├── img/
+│   ├── andres.png
+│   ├── camila.png
+│   └── carolina.png
+├── README.md
+</pre>
+---
 
-📌 Contribuciones
+## ⚠️ Estado del Proyecto
 
-Este es un proyecto académico individual, por lo que no se aceptan contribuciones externas en este momento. 
-
-📄 Licencia
-
-Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles. 
-
+Este es un proyecto académico y no se encuentra en desarrollo activo ni acepta contribuciones externas por el momento.
 
 ---
